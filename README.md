@@ -1,3 +1,1 @@
-edit index.php with ur database infos
-then just run php index.php 
-To kill just run killall php
+edit index.php with ur database infos<br> then just run php index.php<br> To kill just run killall php<br>
