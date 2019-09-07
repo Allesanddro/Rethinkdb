@@ -1,4 +1,4 @@
-sudo apt-get update && apt-get upgrade -y #updatating ur system  
+sudo apt-get update && sudo apt-get upgrade -y #updatating ur system  
 sudo apt install php-cgi php-common php -y # install needed dependencies
 php composer-setup.php #install composer
 php composer.phar install # install client driver for reql
