@@ -1,0 +1,3 @@
+sudo apt install php-cgi php-common php -y
+php composer-setup.php
+php composer.phar require danielmewes/php-rql dev-master
