@@ -1,4 +1,4 @@
-<center>[![Build Status](https://travis-ci.org/Allesanddro/Rethinkdb.svg?branch=master)](https://travis-ci.org/Allesanddro/Rethinkdb)</center>
+[![Build Status](https://travis-ci.org/Allesanddro/Rethinkdb.svg?branch=master)](https://travis-ci.org/Allesanddro/Rethinkdb)
 
 Run bash runinstall <br>
 Then edit The ReadTest.php/WriteTest.php with ur database infos<br>
