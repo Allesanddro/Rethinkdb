@@ -4,4 +4,4 @@ then just run php index.php<br>
 To stop the test just run killall php<br>
 
 
-Credits going to bernardo@bernardo.fm [His Site](https://bernardo.fm)
+Based from bernardo@bernardo.fm [His Site](https://bernardo.fm)
