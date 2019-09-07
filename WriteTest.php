@@ -1,4 +1,4 @@
-
+<?php
 require __DIR__ . '/vendor/autoload.php';
 for ($i = 0; $i < 5; $i++) {
     $pid = pcntl_fork();
