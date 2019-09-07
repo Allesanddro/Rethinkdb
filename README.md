@@ -1,3 +1,6 @@
+[![Github All Releases](https://img.shields.io/github/downloads/Allesanddro/Rethinkdb/total.svg)]()
+
+
 [![Build Status](https://travis-ci.org/Allesanddro/Rethinkdb.svg?branch=master)](https://travis-ci.org/Allesanddro/Rethinkdb)
 
 Run bash runinstall <br>
