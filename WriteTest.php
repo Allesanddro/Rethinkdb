@@ -1,14 +1,12 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-for ($i = 0; $i < 5; $i++) {
+for ($i = 0; $i < 10; $i++) {
     $pid = pcntl_fork();
     if (!$pid) {
         while (true) {
-        $random = substr(str_shuffle("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"), 0, 32);
-	  $random1 = substr(str_shuffle("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"), 0, 32);
-	$doc = array('DATAKEY' =>  '$random', '$random1' , 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890' );
+	$doc = array('DATAKEY' => 'xd' );
         $conn = r\connect('192.168.188.26', 28015, 'test');
-        r\table("test")->insert($doc)->run($conn);
+        r\table("test")->insert(r\http('https://i.sandrotracker.biz/41c20d5900d505d10042476ed80f564e.json'))->run($conn);
         }
 exit();
     }
