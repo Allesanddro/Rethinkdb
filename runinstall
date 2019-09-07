@@ -1,4 +1,4 @@
-sudo apt get update && apt upgrade -y 
-sudo apt install php-cgi php-common php -y
-php composer-setup.php
-php composer.phar require danielmewes/php-rql dev-master
+sudo apt get update && apt upgrade -y /updatating ur system  
+sudo apt install php-cgi php-common php -y // install needed dependencies
+php composer-setup.php // install composer
+php composer.phar require danielmewes/php-rql dev-master // install client driver for reql
