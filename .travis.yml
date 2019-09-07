@@ -4,4 +4,4 @@ php:
 before_install:
   - git config user.email "travis@build.bot" && git config user.name "Travis CI"
 before_script: composer install
-script test
+script: test
